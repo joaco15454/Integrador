@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+body {
+    background-color: #171717;
+
+}
+h1 {
+    font-size: 40px;
+    color: #d63031;
+    font-weight: 600;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    gap: 50px;
+}
+.container__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container__form > label {
+    color: rgb(155, 214, 201);
+    font-size: 18px;
+}
+
+.container__form > input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.container__form > button {
+    width: 250px;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
